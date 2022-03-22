@@ -1,11 +1,2 @@
-# README
-
-# SE Rails starter
-
-### Welcome! To learn how to get started with your own Rails project, visit the resources below. These files can also be found in the `docs/` directory:
-
-* [Installation Guide](docs/Installation_Guide.md)
-  * [Setting up SSH keys with GitHub](docs/Setting_up_SSH_keys_GitHub.md)
-  * [Setting up the correct database](docs/SQLite3_to_Postgres_on_Rails.md)
-* [More helpful information](docs/More_helpful_info.md)
-* [Guide to the .gitignore file](docs/.gitignore_Guide.md)
+Protype 2 Design: In This design I focused on implementing and creating my database tables as well implementing inserts, deletes, and searches for the database.
+I began to create my user diagram and I implemented basic pages.
