@@ -1,4 +1,4 @@
-![This is an image](./docs/UImockup.PNG)
+![This is an image](./docs/UI.PNG)
 
 ![This is an image](./docs/statechart.PNG)
 
