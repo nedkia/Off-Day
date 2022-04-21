@@ -18,3 +18,17 @@ Users will first select a body category where they are feeling symptomatic. They
 The goal of this tool is to be a simple, quick and easy way to self-diagnose "off" symptoms in order to prevent medical accidents and other related issues. 
 
 ![Link to OpenSource Instructions](./OpensourceInfo.md)
+
+
+
+Medical Information
+
+
+Off-day wants to make it clear that we do NOT replace any trusted medical professionals. Any information given by this software is done to help users self diagnose themselves for any unknown illnesses. Users are not reccomended to use this software if they feel very unwell, as they should consult a professional immedieatly.
+
+Information Sources:
+
+https://webmd.com
+https://www.omron-healthcare.com/
+https://www.everydayhealth.com/
+
