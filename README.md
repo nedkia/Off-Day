@@ -8,11 +8,11 @@
 ![This is an image](./docs/designclass.PNG)
 
 
-![Usedesc1](Usedesc1./docs/.PNG)
+![Usedesc1](./docs/Usedesc1.PNG)
 
-![Usedesc2](Usedesc2./docs/.PNG)
+![Usedesc2](./docs/Usedesc2.PNG)
 
-![Usedesc3](Usedesc3./docs/.PNG)
+![Usedesc3](./docs/Usedesc3.PNG)
 
 
 
