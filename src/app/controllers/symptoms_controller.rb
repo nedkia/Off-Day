@@ -1,13 +1,15 @@
 class SymptomsController < ApplicationController
   before_action :set_symptom, only: %i[ show edit update destroy ]
   # GET /symptoms or /symptoms.json
-  def index
+
+  def index #Initialize Symptom Information
     @symptoms = Symptom.all
     if params[:sym_desc]
-      @symptom = Symptom.find_by(sym_desc: params[:sym_desc])
+      @symptom = Symptom.find_by(sym_desc: params[:sym_desc]) #Locate Symptom Information
       @chosen_symptom = @symptom.solution
       @severity = @symptom.sym_severity
     end
+
   end
   # GET /symptoms/1 or /symptoms/1.json
   def show
