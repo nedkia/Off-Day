@@ -32,7 +32,7 @@ The goal of this tool is to be a simple, quick and easy way to self-diagnose "of
 Medical Information
 
 
-Off-day wants to make it clear that we do NOT replace any trusted medical professionals. Any information given by this software is done to help users self diagnose themselves for any unknown illnesses. Users are not reccomended to use this software if they feel very unwell, as they should consult a professional immedieatly.
+Off-day wants to make it clear that we do NOT replace any trusted medical professionals. Any information given by this software is done to help users self diagnose themselves for any unknown illnesses. Users are not reccomended to use this software if they feel very unwell, as they should consult a professional Immediately.
 
 Information Sources:
 
