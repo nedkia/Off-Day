@@ -1,5 +1,5 @@
 class SymptomsController < ApplicationController
-  before_action :set_symptom, only: %i[ show edit update destroy ]
+  #before_action :set_symptom, only: %i[ show edit update destroy ]
   # GET /symptoms or /symptoms.json
 
   def index #Initialize Symptom Information
@@ -22,18 +22,18 @@ class SymptomsController < ApplicationController
   def edit
   end
   # POST /symptoms or /symptoms.json
-  def create
-    @symptom = Symptom.new(symptom_params)
-    respond_to do |format|
-      if @symptom.save
-        format.html { redirect_to symptom_url(@symptom), notice: "Symptom was successfully created." }
-        format.json { render :show, status: :created, location: @symptom }
-      else
-        format.html { render :new, status: :unprocessable_entity }
-        format.json { render json: @symptom.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+  #def create
+  #  @symptom = Symptom.new(symptom_params)
+  #  respond_to do |format|
+  #    if @symptom.save
+  #      format.html { redirect_to symptom_url(@symptom), notice: "Symptom was successfully created." }
+  #      format.json { render :show, status: :created, location: @symptom }
+  #    else
+  #      format.html { render :new, status: :unprocessable_entity }
+  #      format.json { render json: @symptom.errors, status: :unprocessable_entity }
+  #    end
+  #  end
+  #end
   # PATCH/PUT /symptoms/1 or /symptoms/1.json
   def update
     respond_to do |format|

@@ -1,7 +1,7 @@
-<h1>Head..</h1>
+<h1>Body Part: Head</h1>
 
 <div class = "text-right">
-    <%= image_tag "head3.png", :style => "float: left; margin: 100px 100px 100px", height: 495 %>
+    <%= image_tag "head3.png", :style => "float: left; margin: 100px 100px 100px", height: 720 %>
 <br><br>
      <%= form_with model: @symptom, method: :get do |form| %> 
     <%= form.select :sym_desc, options_for_select(@symptoms.collect{|u| [u.sym_desc]})%>
@@ -9,7 +9,7 @@
   <% end %>
   
   <p>
-  Solution:
+  <strong><font size = "5">Solution:
   <strong>
     <%= @chosen_symptom %>
   </strong>
