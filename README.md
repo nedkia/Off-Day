@@ -2,13 +2,13 @@ Protype 2 Design: In This design I focused on implementing and creating my datab
 I began to create my user diagram and I implemented basic pages.
 
 
-[![This is an image](https://github.com/nedkia/Off-Day/blob/prototype2/docs/UImockup.PNG)](https://github.com/nedkia/Off-Day/blob/prototype2/docs/UImockup.PNG)
+![This is an image](./docs/UImockup.PNG)
 
-[![This is an image](https://github.com/nedkia/Off-Day/blob/prototype2/docs/statechart.PNG)](https://github.com/nedkia/Off-Day/blob/prototype2/docs/statechart.PNG)
+![This is an image](./docs/statechart.PNG)
 
-[![This is an image](https://github.com/nedkia/Off-Day/blob/prototype2/docs/sequencedia.PNG)](https://github.com/nedkia/Off-Day/blob/prototype2/docs/sequencedia.PNG)
+![This is an image](./docs/sequencedia.PNG)
 
-[![This is an image](https://github.com/nedkia/Off-Day/blob/prototype2/docs/designclass.PNG)](https://github.com/nedkia/Off-Day/blob/prototype2/docs/designclass.PNG)
+![This is an image](./docs/designclass.PNG)
 
 
 =======
