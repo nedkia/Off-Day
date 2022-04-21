@@ -1,11 +1,19 @@
-# README
+![This is an image](./docs/UImockup.PNG)
 
-# SE Rails starter
+![This is an image](./docs/statechart.PNG)
 
-### Welcome! To learn how to get started with your own Rails project, visit the resources below. These files can also be found in the `docs/` directory:
+![This is an image](./docs/sequencedia.PNG)
 
-* [Installation Guide](docs/Installation_Guide.md)
-  * [Setting up SSH keys with GitHub](docs/Setting_up_SSH_keys_GitHub.md)
-  * [Setting up the correct database](docs/SQLite3_to_Postgres_on_Rails.md)
-* [More helpful information](docs/More_helpful_info.md)
-* [Guide to the .gitignore file](docs/.gitignore_Guide.md)
+![This is an image](./docs/designclass.PNG)
+
+
+
+Welcome to OFF-DAY!
+
+
+This Program allows a person to input various "off" feeling symptoms and it will produce a quick and easy diagnoses!
+
+Users will first select a body category where they are feeling symptomatic. They will then choose from a list a symptoms and after choosing their symptoms, they will be redirected to a page that displays the correct safety measures to do in response to feeling this symptom.
+
+The goal of this tool is to be a simple, quick and easy way to self-diagnose "off" symptoms in order to prevent medical accidents and other related issues. 
+
