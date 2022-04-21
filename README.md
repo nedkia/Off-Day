@@ -29,6 +29,8 @@ Off-day wants to make it clear that we do NOT replace any trusted medical profes
 Information Sources:
 
 https://webmd.com
+
 https://www.omron-healthcare.com/
+
 https://www.everydayhealth.com/
 
