@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sym desc:</strong>
+  <%= @symptom.sym_desc %>
+</p>
+
+<p>
+  <strong>Sym severity:</strong>
+  <%= @symptom.sym_severity %>
+</p>
+
+<p>
+  <strong>Sym location:</strong>
+  <%= @symptom.sym_location %>
+</p>
+
+<%= link_to 'Edit', edit_symptom_path(@symptom) %> |
+<%= link_to 'Back', symptoms_path %>

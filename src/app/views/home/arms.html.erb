@@ -1,0 +1,29 @@
+  <h1>Arms..</h1>
+<%#= link_to "Arms", home_arms_path, class:"btn btn-secondary"%>
+<div class = "center">
+    <%= image_tag "arms3.png", :style => "float: left; margin: 100px 100px 100px", height: 720 %>
+<br><br>
+    
+  <%= form_with model: @symptom, method: :get do |form| %> 
+    <%= form.select :sym_desc, options_for_select(@symptoms.collect{|u| [u.sym_desc]})%>
+    <%= form.submit "Search" %>
+  <% end %>
+  
+  <p>
+  Solution:
+  <strong>
+    <%= @chosen_symptom %>
+  </strong>
+  </p>
+
+  <p>
+  Severity Level:
+  <strong>
+    <%= @severity %>
+  </strong>
+  </p>
+  
+
+</div>
+
+<%#= link_to "index", home_index_path, :style => "float: center; margin: 300px 100px 10px", class:"btn btn-secondary"%>

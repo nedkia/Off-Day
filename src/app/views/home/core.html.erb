@@ -1,0 +1,18 @@
+<h1>Core..</h1>
+
+<div class = "center">
+    <%= image_tag "core3.png", :style => "float: left; margin: 100px 100px 100px", height: 495 %>
+<br><br>
+      <%= form_with model: @symptom, method: :get do |form| %> 
+    <%= form.select :sym_desc, options_for_select(@symptoms.collect{|u| [u.sym_desc]})%>
+    <%= form.submit "Search" %>
+  <% end %>
+  
+  <p>
+  Solution:
+  <strong>
+    <%= @chosen_symptom %>
+  </strong>
+  </p>
+  
+</div>
