@@ -1,6 +1,6 @@
 ![This is an image](./docs/UI.PNG)
 
-![This is an image](./docs/statechart.PNG)
+![This is an image](./docs/statech.PNG)
 
 ![This is an image](./docs/sequencedia.PNG)
 
