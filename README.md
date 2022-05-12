@@ -6,7 +6,7 @@
 ![This is an image](./docs/sequencedia.PNG)
 
 
-![This is an image](./docs/designclass.PNG)
+![This is an image](./docs/designclassfinal.PNG)
 
 
 ![Usedesc1](./docs/Usedesc1.PNG)
