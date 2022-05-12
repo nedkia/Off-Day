@@ -1,0 +1,37 @@
+<%= form_with(model: symptom, local: true) do |form| %>
+  <% if symptom.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(symptom.errors.count, "error") %> prohibited this symptom from being saved:</h2>
+
+      <ul>
+        <% symptom.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :sym_desc %>
+    <%= form.text_field :sym_desc %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sym_severity %>
+    <%= form.number_field :sym_severity %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sym_location %>
+    <%= form.text_field :sym_location %>
+  </div>
+
+    <div class="field">
+    <%= form.label :solution %>
+    <%= form.text_field :solution %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

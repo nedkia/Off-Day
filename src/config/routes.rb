@@ -1,20 +1,25 @@
 # frozen_string_literal: true
-
 # This file tells the Rails server how incoming requests are sent to which
 # controller and method.
 #
 #
 # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-
 Rails.application.routes.draw do
+  resources :symptoms
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   # The root page, e.g. www.example.com/, is sent here
   # root 'controller#method_in_controller'
+  get 'home/results'
+  get 'home/arms'
+  get 'home/core'
+  get 'home/legs'
+  get 'home/head'
+
+  get 'home/symptoms'
   root 'home#index'
   # Devise authentification pages. This controlls the user login
   # and authentification system.
-  devise_for :users
-
+  #devise_for :users  
   # Examples:
   #
   # # Add app CRUD operations from a controller. Used with scaffolding.
@@ -24,7 +29,7 @@ Rails.application.routes.draw do
   #
   # # Add GET path for photos controller, index method
   # get 'photos/index'
-  #
+  
   # # Resources, but only register these methods
   # resources :photos, only: [:index, :new, :create, :destroy]
   #

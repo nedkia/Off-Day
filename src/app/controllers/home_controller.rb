@@ -1,21 +1,52 @@
-# frozen_string_literal: true
 
-# Controller for the home page already made for you
 class HomeController < ApplicationController
-  # No sign in needed to access these pages
-  # Overrides ApplicationController's instructions to check for login by default
-  skip_before_action :authenticate_user!
+  def index 
+  end
+  def arms    #Arms
+    @symptoms = Symptom.where(sym_location: 'Arms') #Finds all Arm related Symptoms
+    if params[:sym_desc]
+      @symptom = Symptom.find_by(sym_desc: params[:sym_desc]) 
+      @chosen_symptom = @symptom.solution #Assigns Symptom Solution
+      @severity = @symptom.sym_severity #Assigns Symptom Severity
+    end
+  end
+  #def legs
+  #  @symptoms = Symptom.where(sym_location: 'Legs')
+  #  if params[:sym_desc]
+  #    @chosen_symptom = Symptom.find_by(sym_desc: params[:sym_desc]).solution
+  #  end
+  #end
+def legs
+  @symptoms = Symptom.where(sym_location: 'Legs') #Finds all Leg related Symptoms
+    if params[:sym_desc]
+      @symptom = Symptom.find_by(sym_desc: params[:sym_desc])
+      @chosen_symptom = @symptom.solution #Assigns Symptom Solution
+      @severity = @symptom.sym_severity #Assigns Symptom Severity
+    end
+end
+  #def core
+  #  @symptoms = Symptom.where(sym_location: 'Core')
+  #  if params[:sym_desc]
+  #    @chosen_symptom = Symptom.find_by(sym_desc: params[:sym_desc]).solution
+  #  end
+  #end
+  def core
+    @symptoms = Symptom.where(sym_location: 'Core') #Finds all Core related Symptoms
+      if params[:sym_desc]
+        @symptom = Symptom.find_by(sym_desc: params[:sym_desc])
+        @chosen_symptom = @symptom.solution #Assigns Symptom Solution
+        @severity = @symptom.sym_severity #Assigns Symptom Severity
+      end
+  end
+  def head
+    @symptoms = Symptom.where(sym_location: 'Head') #Finds all Head related Symptoms
+      if params[:sym_desc]
+        @symptom = Symptom.find_by(sym_desc: params[:sym_desc])
+        @chosen_symptom = @symptom.solution #Assigns Symptom Solution
+        @severity = @symptom.sym_severity #Assigns Symptom Severity
+      end
+  end
 
-  # GET /
-  #
-  # This method is empty, yet it works?
-  # Rails controller methods can be completely empty and work just fine.
-  # It's the name of the method matching to a html.erb file that
-  # makes the link between the files.
-  # Find me @ app/views/home/index.html.erb
-  #
-  # Also, any local variable made inside this method will also exist
-  # in the view to be displayed. Do not look up information within the
-  # view itself. Do it here, please!
-  def index; end
+
+  
 end
