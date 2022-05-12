@@ -3,7 +3,7 @@
 
 ![This is an image](./docs/statech.PNG)
 
-![This is an image](./docs/sequencedia.PNG)
+![This is an image](./docs/sequencediafinal.PNG)
 
 
 ![This is an image](./docs/designclassfinal.PNG)
