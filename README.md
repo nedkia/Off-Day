@@ -3,10 +3,17 @@
 
 ![This is an image](./docs/statech.PNG)
 
+
+![This is an image](./docs/sequencediafinal.PNG)
+
+
+![This is an image](./docs/designclassfinal.PNG)
+=======
 ![This is an image](./docs/sequencedia.PNG)
 
 
 ![This is an image](./docs/designclass.PNG)
+
 
 
 ![Usedesc1](./docs/Usedesc1.PNG)

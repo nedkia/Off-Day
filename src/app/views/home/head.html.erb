@@ -7,7 +7,7 @@
     <%= form.select :sym_desc, options_for_select(@symptoms.collect{|u| [u.sym_desc]})%>
     <%= form.submit "Search" %>
   <% end %>
-  
+  <%= link_to "Reset", home_head_path, :style => "float: right; margin: 0px 0px 10px", class:"btn btn-secondary btn-lg btn-block"%>
   <p>
   <strong><font size = "5">Solution:
   <strong>
